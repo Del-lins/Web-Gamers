@@ -1,0 +1,109 @@
+header {
+  width: 100%;
+  height: 10vh;
+  background: rgba(0, 0, 0, 0.789);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bi {
+  display: none;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../assets/background.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.logo {
+  width: 300px;
+  height: 10vh;
+  background: #550381;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  clip-path: polygon(0 0, 100% 0, 64% 100%, 0% 100%);
+  padding: 10px;
+  line-height: 1.3rem;
+  gap: 10px;
+}
+
+.logo .fas {
+  font-size: 50px;
+}
+
+.logo p {
+  width: 130px;
+  font-size: 20px;
+}
+
+.nav-bar {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+
+.nav-bar .navlink {
+  display: flex;
+  position: relative;
+  font-size: 18px;
+}
+
+.nav-bar li {
+  width: 120px;
+}
+
+.nav-bar li a {
+  color: #fff;
+  font-weight: 600;
+}
+
+.nav-bar li a.active {
+  color: #fec52a;
+}
+
+.nav-bar li a:hover:not(.active) {
+  color: #fec52a;
+}
+
+.nav-bar .navlink::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 40%;
+  height: 1px;
+  background: #fec52a;
+  transform: scale(0);
+  transform-origin: right;
+  transition: transform 0.4s;
+}
+
+.nav-bar .navlink:hover::after {
+  transform: scale(1);
+  transform-origin: left;
+  transition: transform 0.4s;
+}
+
+#btn {
+  width: 250px;
+  height: 10vh;
+  background: #fec52a;
+  color: #000;
+  border: none;
+  clip-path: polygon(35% 0, 100% 0, 100% 100%, 0 100%);
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: right;
+  padding-right: 40px;
+  cursor: pointer;
+}
+
+#btn .fas {
+  margin-right: 10px;
+}

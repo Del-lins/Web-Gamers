@@ -1,0 +1,68 @@
+.section2 {
+  width: 100%;
+  height: 50vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../img/flame.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.section2 h1 {
+  font-size: 2rem;
+  color: #fff;
+}
+
+.players {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.p-image {
+  width: 200px;
+  height: 200px;
+  background: url(../img/vaklish.png);
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  position: relative;
+}
+
+#after-hidden::after {
+  content: "VS";
+  position: absolute;
+  right: -35px;
+  bottom: 0;
+  font-size: 2rem;
+  color: #fec53a;
+}
+
+#after-hidden::after {
+  content: "VS";
+  position: absolute;
+  right: -35px;
+  bottom: 0;
+  font-size: 2rem;
+  color: #fec53a;
+}
+
+.players span {
+  font-size: 1.5rem;
+  color: #fec53a;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.stars {
+  color: #fec53a;
+}
+
+.p-image2 {
+  background: url(../img/rakuto.png);
+  background-size: cover;
+  background-position: center;
+}

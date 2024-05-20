@@ -1,0 +1,52 @@
+.section3 {
+  width: 100%;
+  height: 90vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../img/controller5.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.section3 h1 {
+  font-size: 2rem;
+  color: #fff;
+  text-align: center;
+  font-weight: 700;
+  padding: 20px 0 0 0;
+}
+
+.section3wrapper {
+  display: flex;
+  min-height: 80vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.feedback {
+  width: 300px;
+  height: 300px;
+  background: url(../img/feedback.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.feedback-desc {
+  width: 300px;
+  height: 300px;
+  background: rgba(0, 0, 0, 0.767);
+  padding: 10px;
+  color: #fff;
+  margin-right: 10px;
+}
+
+.feedback-desc .far {
+  color: #fec53a;
+  font-size: 30px;
+}
+
+.f-image2 {
+  background: url(../img/image9.jpg);
+  background-size: cover;
+  background-position: center;
+}

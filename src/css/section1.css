@@ -1,0 +1,176 @@
+.section1 {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.767), rgba(0, 0, 0, 0.712)),
+    url(../img/fortnit.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.section1 {
+  font-size: 1.5rem;
+  color: #fec53a;
+  font-weight: 450;
+}
+
+.section1-wrapper {
+  width: 70%;
+  margin: auto;
+}
+
+.section1-img {
+  display: flex;
+  gap: 10px;
+}
+
+.section1-img .img {
+  width: 100px;
+  height: 130px;
+  background: url(../img/jumanji.jpg);
+  background-size: cover;
+  background-position: center;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+
+.section1-img .img-2 {
+  background: url(../img/nba.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.section1-img .img-3 {
+  background: url(../img/battle.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.section1-img .img-4 {
+  background: url(../img/warxone.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.section1-img .img-5 {
+  background: url(../img/craft.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+.section1-img .img-6 {
+  background: url(../img/fortnite.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.section1-img .img-7 {
+  background: url(../img/assassin.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.section1-img .img-8 {
+  background: url(../img/spider.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.img:hover {
+  transform: translateY(-10px);
+}
+
+.game-categorias {
+  width: 70%;
+  margin: auto;
+  position: relative;
+}
+
+.game-categorias h1 {
+  font-size: 1.5rem;
+  margin: 30px 0;
+  color: #fec53a;
+}
+
+.game-wrapper {
+  display: flex;
+}
+
+.gw {
+  width: 120px;
+  height: 120px;
+  background: url(../img/asphalt8.jpg);
+  background-size: cover;
+  background-position: center;
+  margin: 20px 15px 0 0;
+  border-radius: 10px;
+}
+
+.gw:hover {
+  transform: translateY(-10px);
+}
+
+.left {
+  position: relative;
+  right: -140px;
+}
+
+.gw1 {
+  background: url(../img/pes22.webp);
+  background-size: cover;
+  background-position: center;
+}
+
+.gw2 {
+  background: url(../img/fortnit.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.gw3 {
+  background: url(../img/carrace.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.gw4 {
+  background: url(../img/Anpar.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.gw5 {
+  background: url(../img/warxone.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.gw6 {
+  background: url(../img/fifa21.webp);
+  background-size: cover;
+  background-position: center;
+}
+
+.gw7 {
+  background: url(../img/incrdible.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.gw8 {
+  background: url(../img/craft.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+.gw9 {
+  background: url(../img/coldwar.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.gw10 {
+  background: url(../img/battlefield.jpg);
+  background-size: cover;
+  background-position: center;
+}
