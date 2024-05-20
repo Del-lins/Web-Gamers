@@ -66,3 +66,15 @@
   background-size: cover;
   background-position: center;
 }
+
+.p-image3 {
+  background: url(../img/guerreiro.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.p-image4 {
+  background: url(../img/warxone.jpg);
+  background-size: cover;
+  background-position: center;
+}

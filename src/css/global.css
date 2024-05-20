@@ -14,3 +14,12 @@ body {
   background: #1a0327;
   height: 100vh;
 }
+
+html::-webkit-scrollbar {
+  width: 0.5rem;
+  background: transparent;
+}
+
+html::-webkit-scrollbar-thumb {
+  background: #fec53a;
+}
